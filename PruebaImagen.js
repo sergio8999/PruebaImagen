@@ -13,7 +13,7 @@ function inicio() {
    * @param {DeviceOrientationEvent} e 
    */
   function orientacion(e){
-    document.getElementById('Imagen').style.transform = "rotate("+e.alpha+"deg)";
+    document.getElementById('imagen').style.transform = "rotate("+e.alpha+"deg)";
   }
 
   function click(){
