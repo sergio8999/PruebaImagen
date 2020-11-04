@@ -1,6 +1,6 @@
 function main() {
     if (window.DeviceOrientationEvent) {
-        let elemtoCubo = document.getElementById("3DElement");
+        let elemtoCubo = document.getElementById("cubo");
 
         window.addEventListener("deviceorientation", function (e) {
             elemtoCubo.style.transform =
